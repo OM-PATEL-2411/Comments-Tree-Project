@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import { verifyToken } from "@/lib/jwt";
 
 export function proxy(request) {
   const { pathname } = request.nextUrl;
